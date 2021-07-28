@@ -42,7 +42,7 @@ if let index = myFriends.firstIndex(of: "Kevin") {
 ```
 
 ```swift
-// 若不知道 Kevin 的具體位置，亦可利用 firstIndex 找到Kevin的位置後刪除並新增到首位
+// 若不知道 Kevin 的具體位置，亦可利用 firstIndex 找到 Kevin 的位置後刪除並新增到首位
 
 if let index = myFriends.firstIndex(of: "Kevin") {
    myFriends.remove(at: index)
