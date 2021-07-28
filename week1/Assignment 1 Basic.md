@@ -2,7 +2,7 @@
 
 <br>
 
-##### Q1. Define a variable <code class="highlighter">pi</code> and assign a value to it.
+#### Q1. Define a variable <code class="highlighter">pi</code> and assign a value to it.
 
 ```swift
 let pi: Double = Double.pi  // 3.141592653589793
@@ -10,7 +10,7 @@ let pi: Double = Double.pi  // 3.141592653589793
 <br>
 
 
-##### Q2. Calculate the average of <code class="highlighter">x</code> and <code class="highlighter">y</code>.
+#### Q2. Calculate the average of <code class="highlighter">x</code> and <code class="highlighter">y</code>.
 
 ```swift
 let x: Int = 70
@@ -20,7 +20,7 @@ let average = (x+y)/2    // 65
 <br>
 
 
-##### Q3.1 Calculate the average of <code class="highlighter">x</code> and <code class="highlighter">y</code>, and solve the decimal point problem.
+#### Q3.1 Calculate the average of <code class="highlighter">x</code> and <code class="highlighter">y</code>, and solve the decimal point problem.
 
 ```swift
 let averageFixed = Double((x+y))/2    // 65.0
@@ -28,7 +28,7 @@ let averageFixed = Double((x+y))/2    // 65.0
 <br>
 
 
-##### Q3.2 Explain the difference between (10/3) and (10.0/3.0).
+#### Q3.2 Explain the difference between (10/3) and (10.0/3.0).
 
 ```swift
 // 計算 10/3 將會回傳一個整數 Int 型態
@@ -43,7 +43,7 @@ print(type(of: averageFixed))    // Double
 <br>
 
 
-##### Q4. Change the following codes into the one with the data type.
+#### Q4. Change the following codes into the one with the data type.
 
 ```swift
 var flag: Bool = true
@@ -54,7 +54,7 @@ let averageScore: Double = 86.8
 <br>
 
 
-##### Q5. Please create a salary as 22000, and use unary plus operator adding 28000 to salary, and it will be 50000 after this process.
+#### Q5. Please create a salary as 22000, and use unary plus operator adding 28000 to salary, and it will be 50000 after this process.
 
 ```swift
 var salary = 22000
@@ -65,7 +65,7 @@ print(salary)    // 50000
 <br>
 
 
-##### Q6. Please write down the Equality operator in swift.
+#### Q6. Please write down the Equality operator in swift.
 
 ```swift
 // Equality operator in Swift is '=='
@@ -75,7 +75,7 @@ print(salary)    // 50000
 <br>
 
 
-##### Q7. Declare two constants that values are <code class="highlighter">10</code> and <code class="highlighter">3</code> each, then please calculate the remainder and save the result in a constant named <code class="highlighter">remainder</code>.
+#### Q7. Declare two constants that values are <code class="highlighter">10</code> and <code class="highlighter">3</code> each, then please calculate the remainder and save the result in a constant named <code class="highlighter">remainder</code>.
 ```swift
 let x = 10
 let y = 3
@@ -85,7 +85,7 @@ let remainder2 = y % x    // 3
 <br>
 
 
-##### Q8. Please explain the difference between let and var .
+#### Q8. Please explain the difference between let and var .
 ```swift
 /* 
 
@@ -97,7 +97,7 @@ let remainder2 = y % x    // 3
 <br>
 
 
-##### Q9. Please write down naming conventions and rules you learned in this session.
+#### Q9. Please write down naming conventions and rules you learned in this session.
 ```swift
 /*
 
@@ -111,7 +111,7 @@ let remainder2 = y % x    // 3
 <br>
 
 
-##### Q10. What is Type Inference in swift?
+#### Q10. What is Type Inference in swift?
 ```swift
 // Type Inference（型別推斷）意指編譯器會自動偵測指派資料的型態，決定新變數的型態。以下舉例：
 
@@ -123,7 +123,7 @@ var studentPassesd = true    // Bool
 <br>
 
 
-##### Q11.  What is the problem about this piece of code?
+#### Q11.  What is the problem about this piece of code?
 ```swift
 // phoneNumber的型態在宣告時，因Type Inference被定義為 Int，而"Hello World." 的型態為字串（String），Swift 無法指派字串到Int 變數
 
