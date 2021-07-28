@@ -1,6 +1,19 @@
 # Assignment 1: Git & GitHub
 
-依照作業規定，已將本週作業內容上傳至 Repository 的 <code class="highlighter">week1</code> 資料夾中，以下從Assignment 1: Git & GitHub 的第2題開始回答：）
+
+#### Q1. Please apply for a GitHub account and create a repository then upload your homework to the repository.
+
+```
+// GitHub repository link as below:
+
+https://github.com/Echim2016/remote-assignment
+``` 
+<br>
+<br>
+
+
+
+#### Q2. Here are a few git and GitHub commands we usually use in software development, please explain the meanings and use cases of them.
 <br>
 
 #### <code class="highlighter">git status</code>
@@ -138,8 +151,14 @@ fork 並非一種 git 指令。此動作意指開發者在 GitHub 上快速複�
 ![](https://i.imgur.com/0Txlmkq.png)
 
 <br>
+<br>
 
----
+
+
+
+
+#### Q3. Please describe how to establish a GitHub repo and how to upload the local projects to GitHub. Try to explain your answers with as much detail as possible.
+<br>
 
 ### 如何部署 GitHub Repository？ 
 
@@ -200,3 +219,7 @@ $ git push origin master
 
 ![](https://i.imgur.com/XjMgEyc.png)
 
+<br>
+<br>
+
+> [2021-07-27 21:31 Yi-Chin Hsu]
