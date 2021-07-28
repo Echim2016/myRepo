@@ -136,8 +136,8 @@ myCountryNumber.updateValue(0, forKey: "GB")
 
 ```swift
 // Dictionary 可以使用以下兩種宣告方式：
-var emptyDictionary: [keyType: valueType] = [:]
-var emptyDictionary: Dictionary<keyType, valueType>
+var emptyDictionary: [key_type: value_type] = [:]
+var emptyDictionary: Dictionary<key_type, value_type>
 
 // 以本題 myCountryNumber 為例
 var myCountryNumber: [String: Int] = [:]
