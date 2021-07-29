@@ -101,10 +101,12 @@ let remainder2 = y % x    // 3
 ```swift
 /*
 
-1. 以小寫作為變數命名的開頭（如：petName）
-2. 使用有意義、有描述性的名詞（如：daysOfTheWeek、studentName）
-3. 避免使用無意義的代名詞或縮寫（如：x、y、dotw）
-4. 在迴圈中的控制變數通常使用 i、j、k
+1. 變數的命名以小寫開頭（如：petName）
+2. struct 或 class 的命名以大寫開頭（如：Student、Actor）
+3. 使用有意義、有描述性的名詞（如：daysOfTheWeek、studentName）
+4. 避免使用無意義的代名詞或縮寫（如：x、y、dotw）
+5. 在迴圈中的控制變數通常使用 i、j、k
+6. function 的命名儘量以「動詞」描述動作為命名原則（如：calculateFullName）
 
 */
 ```
