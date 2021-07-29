@@ -83,7 +83,7 @@ for i in 0..<lottoNumbers.count where lottoNumbers[i] % 2 == 0 {
 
 ```swift
 var i = 0
-while i<lottoNumbers.count {
+while i < lottoNumbers.count {
 //    print(lottoNumbers[lottoNumbers.count-i-1])
     i += 1
 }
@@ -106,7 +106,7 @@ while i<lottoNumbers.count {
 
 ```swift
 var i = 0
-while i<lottoNumbers.count {
+while i < lottoNumbers.count {
     if lottoNumbers[i] % 2 == 0 {
         print(lottoNumbers[i])
     }
